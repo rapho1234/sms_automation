@@ -94,9 +94,9 @@ def send_text(customer, tel_no, account_number):
     expiry_date = end_date.strftime("%d/%m/%Y")
 
     message = (
-        f"FROM: DOUBLE BLACK MEDIA LIMITED. Dear {customer}, "
-        f"your DBMS fiber internet expires on {expiry_date}. "
-        f"Please renew via Mpesa Paybill No: 4051187 "
+        f"FROM: YOUR SENDER ID. Dear {customer}, "
+        f"Your fiber internet expires on {expiry_date}. "
+        f"Please renew via Mpesa Paybill No: XXXX." # you unique payment gateway
         f"Account No: {account_number}. Thank you."
     )
 
