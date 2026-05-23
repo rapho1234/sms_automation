@@ -85,7 +85,7 @@ def format_phone_number(phone):
 # SEND SMS
 # -------------------------------
 def send_text(customer, tel_no, account_number):
-    # ✅ CORRECTED ENDPOINT (Do not change this back to textsms.co.ke)
+    # ✅ URL to your provider
     url = "https://sms.textsms.co.ke/api/services/sendsms/"
 
     formatted_phone = format_phone_number(tel_no)
